@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Suzanne Collins Website redesign">
+	  	<meta name="author" content="Jessica Rosanio">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="images/logo.png" />
+		<title>Works</title>
+
+		<!-- Bootstrap v5.1.3 -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&family=Nanum+Gothic&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+        <style>
+            .boxtop {
+				grid-column: 1/13;
+                background-image: url(images/scenery.jpg);
+				background-size:cover;
+				background-position: top center;
+				height:35vh;
+				padding-top: 150px;
+			}
+            h1 {
+                text-align: center;
+                padding-top: 55px;
+                color: #fff;
+                /* font-family: 'Nanum Gothic', sans-serif; */
+                font-family: 'Playfair Display', serif;
+                filter: drop-shadow(5px 5px 5px #2e2e2e);
+            }
+            h2 {
+                font-family: 'Playfair Display', serif;
+                padding: 30px;
+            }
+            img {
+                filter: drop-shadow(5px 5px 5px #666666);
+            }
+            .nextbox {
+                grid-column: 1/13;
+                text-align: center;
+                background-color: rgb(244, 238, 238);
+            }
+            .boxnext {
+                display:grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                background-color: rgb(244, 244, 244);
+                padding-bottom: 70px;
+            }
+            .box1 {
+                grid-column: 1/13;
+                text-align: center;
+                padding-top: 50px;
+            }
+            .box2 {
+                grid-column: 1/5;
+                text-align: center;
+            }
+            .box3 {
+                grid-column: 5/9;
+                text-align: center;
+            }
+            .box4 {
+                grid-column: 9/13;
+                text-align: center;
+            }
+            .boxnext2 {
+                display:grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                background-color: rgb(249, 249, 249);
+                padding-bottom: 70px;
+            }
+            .box5 {
+                grid-column: 1/13;
+                text-align: center;
+                padding-top: 50px;
+            }
+            .box6 {
+                grid-column: 5/9;
+                text-align: center;
+            }
+            .boxnext3 {
+                display:grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                background-color: rgb(244, 244, 244);
+                padding-bottom: 70px;
+            }
+            .box7 {
+                grid-column: 1/13;
+                text-align: center;
+                padding-top: 50px;
+            }
+            .box8 {
+                grid-column: 1/5;
+                text-align: center;
+            }
+            .box9 {
+                grid-column: 5/9;
+                text-align: center;
+            }
+            .box10 {
+                grid-column: 9/13;
+                text-align: center;
+            }
+            .box11 {
+                grid-column: 3/7;
+                text-align: center;
+                padding-top: 50px;
+            }
+            .box12 {
+                grid-column: 7/11;
+                text-align: center;
+                padding-top: 50px;
+            }
+            .boxnext4 {
+                display:grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                background-color: rgb(249, 249, 249);
+                padding-bottom: 70px;
+            }
+            .box13 {
+                grid-column: 1/13;
+                text-align: center;
+                padding-top: 50px;
+            }
+            .box14 {
+                grid-column: 3/7;
+                text-align: center;
+            }
+            .box15 {
+                grid-column: 7/11;
+                text-align: center;
+            }
+            footer {
+                grid-column: 1/13;
+                text-align: center;
+                background-color: rgb(171, 171, 171);
+                padding: 10px;
+            }
+            .nav-item {
+                font-size: 18px;
+                font-family: 'Nanum Gothic', sans-serif;
+            }
+            .nav-item2 {
+                font-size: 30px;
+                font-family: 'Playfair Display', serif;
+            }
+            a:link {
+                color: #fff;
+                text-decoration: none;
+            }
+            a:visited {
+                color: #fff;
+            }
+            a:hover {
+                color:#aaa;
+                text-decoration-style: double;
+            }
+            img:hover{
+                filter: brightness(50%);
+            }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxtop">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <div class="container px-4">
+                    <a class="nav-item nav-item2" href="index.html">Suzanne Collins</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="works.html">Works</a></li>
+                            <li class="nav-item"><a class="nav-link">Biography</a></li>
+                            <li class="nav-item"><a class="nav-link">Interview</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <h1>Works</h1>
+        </div>
+        <div class="nextbox">
+            
+        </div>
+        <div class="boxnext">
+            <div class="box1">
+                <h2>The Hunger Games Trilogy</h2>
+            </div>
+            <div class="box2">
+                <a href="hungergames.html"><img src="images/hungergames.png" alt="Hunger Games" width="200"></a>
+            </div>
+            <div class="box3">
+                <a href="catchingfire.html"><img src="images/catchingfire.png" alt="Catching Fire" width="200"></a>
+            </div>
+            <div class="box4">
+                <a href="mockingjay.html"><img src="images/mockingjay.png" alt="Mockingjay" width="200"></a>
+            </div>
+        </div>
+        <div class="boxnext2">
+            <div class="box5">
+                <h2>The Ballad of Songbirds and Snakes</h2>
+            </div>
+            <div class="box6">
+                <img src="images/The_Ballad_of_Songbirds_and_Snakes.png" alt="The Ballad of Songbirds and Snakes" width="200"> 
+            </div>
+        </div>
+        <div class="boxnext3">
+            <div class="box7">
+                <h2>The Underland Chronicles</h2>
+            </div>
+            <div class="box8">
+                <img src="images/chronicles1.jpg" alt="book 1" width="200">
+            </div>
+            <div class="box9">
+                <img src="images/chronicles2.jpg" alt="book 2" width="200">
+            </div>
+            <div class="box10">
+                <img src="images/chronicles3.jpg" alt="book 3" width="200">
+            </div>
+            <div class="box11">
+                <img src="images/chronicles4.jpg" alt="book 4" width="200">
+            </div>
+            <div class="box12">
+                <img src="images/chronicles5.jpg" alt="book 5" width="200">
+            </div>
+        </div>
+        <div class="boxnext4">
+            <div class="box13">
+                <h2>Picture Books</h2>
+            </div>
+            <div class="box14">
+                <img src="images/pic-book1.jpeg" alt="Pic book 1" width="250"> 
+            </div>
+            <div class="box15">
+                <img src="images/pic-book2.webp" alt="Pic book 2" width="375"> 
+            </div>
+        </div>
+        <footer>
+            <p>Copyright 2022 Suzanne Collins</p>
+        </footer>
+    </div>
+</body>
+</html>
